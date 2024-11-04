@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="9" failed="3" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-04T17:17:45 IST" name="Suite" finished-at="2024-11-04T17:17:50 IST" duration-ms="5066">
+    <groups>
+    </groups>
+    <test started-at="2024-11-04T17:17:45 IST" name="Test" finished-at="2024-11-04T17:17:50 IST" duration-ms="5066">
+      <class name="smoke_MasterModuleTestCases.Expense_Type">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:45 IST" name="setupExtent" finished-at="2024-11-04T17:17:45 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:45 IST" name="setUp" finished-at="2024-11-04T17:17:48 IST" duration-ms="2351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:1, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:48 IST" name="testLogin" finished-at="2024-11-04T17:17:48 IST" duration-ms="298" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[UserID cannot be null or empty.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: UserID cannot be null or empty.
+at projectUtilities.CommonUtils.login(CommonUtils.java:70)
+at smoke_MasterModuleTestCases.Expense_Type.testLogin(Expense_Type.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testNavigationToHomeScreen()[pri:2, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:48 IST" name="testNavigationToHomeScreen" finished-at="2024-11-04T17:17:48 IST" depends-on-methods="smoke_MasterModuleTestCases.Expense_Type.testLogin" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method smoke_MasterModuleTestCases.Expense_Type.testNavigationToHomeScreen() on instance smoke_MasterModuleTestCases.Expense_Type@5505ae1a depends on not successfully finished methods 
+[smoke_MasterModuleTestCases.Expense_Type.testLogin() on instance smoke_MasterModuleTestCases.Expense_Type@5505ae1a]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method smoke_MasterModuleTestCases.Expense_Type.testNavigationToHomeScreen() on instance smoke_MasterModuleTestCases.Expense_Type@5505ae1a depends on not successfully finished methods 
+[smoke_MasterModuleTestCases.Expense_Type.testLogin() on instance smoke_MasterModuleTestCases.Expense_Type@5505ae1a]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToHomeScreen -->
+        <test-method signature="testRedirectionToListScreen()[pri:3, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:48 IST" name="testRedirectionToListScreen" finished-at="2024-11-04T17:17:48 IST" duration-ms="238" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User has not been navigated to the desired list screen successfully. expected [] but found [data:,]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User has not been navigated to the desired list screen successfully. expected [] but found [data:,]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at smoke_MasterModuleTestCases.Expense_Type.testRedirectionToListScreen(Expense_Type.java:112)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedirectionToListScreen -->
+        <test-method signature="testNewExpenseTypeButton()[pri:4, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:48 IST" name="testNewExpenseTypeButton" finished-at="2024-11-04T17:17:49 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewExpenseTypeButton -->
+        <test-method signature="testSectorDropdown()[pri:5, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:49 IST" name="testSectorDropdown" finished-at="2024-11-04T17:17:49 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSectorDropdown -->
+        <test-method signature="testExpenseTypeTextbox()[pri:6, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:49 IST" name="testExpenseTypeTextbox" finished-at="2024-11-04T17:17:49 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpenseTypeTextbox -->
+        <test-method signature="testDescriptionTextbox()[pri:7, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:49 IST" name="testDescriptionTextbox" finished-at="2024-11-04T17:17:49 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDescriptionTextbox -->
+        <test-method signature="testAccountingExpenseCodeTextbox()[pri:8, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:49 IST" name="testAccountingExpenseCodeTextbox" finished-at="2024-11-04T17:17:49 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountingExpenseCodeTextbox -->
+        <test-method signature="testAvailableToWorkerToggle()[pri:9, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:49 IST" name="testAvailableToWorkerToggle" finished-at="2024-11-04T17:17:49 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAvailableToWorkerToggle -->
+        <test-method signature="testAmountToBeEnteredWithMspFeeToggle()[pri:10, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:49 IST" name="testAmountToBeEnteredWithMspFeeToggle" finished-at="2024-11-04T17:17:50 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmountToBeEnteredWithMspFeeToggle -->
+        <test-method signature="testNatureOfExpenseDropdown()[pri:11, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:50 IST" name="testNatureOfExpenseDropdown" finished-at="2024-11-04T17:17:50 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNatureOfExpenseDropdown -->
+        <test-method signature="testClickSaveButton()[pri:12, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:50 IST" name="testClickSaveButton" finished-at="2024-11-04T17:17:50 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSaveButton -->
+        <test-method signature="testToastMessageVerification()[pri:13, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:50 IST" name="testToastMessageVerification" finished-at="2024-11-04T17:17:50 IST" duration-ms="115" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Locator not found in the map or is blank for key: toast]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Locator not found in the map or is blank for key: toast
+at projectUtilities.CommonUtils.getValidationMessageFromFieldOrToast(CommonUtils.java:594)
+at smoke_MasterModuleTestCases.Expense_Type.testToastMessageVerification(Expense_Type.java:282)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToastMessageVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:50 IST" name="tearDown" finished-at="2024-11-04T17:17:50 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownExtent()[pri:0, instance:smoke_MasterModuleTestCases.Expense_Type@5505ae1a]" started-at="2024-11-04T17:17:51 IST" name="teardownExtent" finished-at="2024-11-04T17:17:51 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownExtent -->
+      </class> <!-- smoke_MasterModuleTestCases.Expense_Type -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -62,8 +62,7 @@ public class Candidate_Decline_Reason extends BaseTest {
 		} catch (Exception e) {
 			logError("Failed to login: " + e.getMessage());
 			throw e;
-		}
-		logInfo("User has been logged in successfully.");
+		}logInfo("User has been logged in successfully.");
 
 	}
 

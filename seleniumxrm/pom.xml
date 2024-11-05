@@ -95,7 +95,6 @@
 			<version>5.9.1</version>
 		</dependency>
 
-
 		<!-- Dependency for log4j	-->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
